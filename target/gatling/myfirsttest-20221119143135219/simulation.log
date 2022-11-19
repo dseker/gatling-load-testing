@@ -1,0 +1,4 @@
+RUN	videogamedb.MyFirstTest	myfirsttest	1668868295219	test	3.6.1
+USER	My first test	START	1668868296542
+REQUEST		Get all games	1668868296570	1668868296790	OK	 
+USER	My first test	END	1668868296809

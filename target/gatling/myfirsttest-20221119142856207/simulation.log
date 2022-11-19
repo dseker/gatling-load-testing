@@ -1,0 +1,4 @@
+RUN	videogamedb.MyFirstTest	myfirsttest	1668868136207	test	3.6.1
+ERROR	Get all games: Failed to build request: No baseUrl defined but provided url is relative : /videogame 	1668868137800
+USER	My first test	END	1668868137811
+USER	My first test	START	1668868137794
