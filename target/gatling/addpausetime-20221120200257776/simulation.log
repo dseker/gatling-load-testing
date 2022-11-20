@@ -1,0 +1,6 @@
+RUN	videogamedb.scriptfundamentals.AddPauseTime	addpausetime	1668974577776	test	3.6.1
+ERROR	get all video games - 1st call: Failed to build request: No baseUrl defined but provided url is relative : /videogame 	1668974578981
+USER	Video Game DB - 3 calls	START	1668974578977
+ERROR	Get a specific game: Failed to build request: No baseUrl defined but provided url is relative : /videogame/1 	1668974583986
+ERROR	Get all video games - 2nd call: Failed to build request: No baseUrl defined but provided url is relative : /videogame 	1668974590001
+USER	Video Game DB - 3 calls	END	1668974593007

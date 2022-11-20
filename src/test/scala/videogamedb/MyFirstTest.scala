@@ -15,6 +15,6 @@ class MyFirstTest extends Simulation {
     .exec(http("Get all games")
       .get("/videogame"))
   // 3 Load Scenario
-  setUp(scn.inject(atOnceUsers(1)))
+  setUp(scn.inject(atOnceUsers(10)))
     .protocols(httpProtocol)
 }

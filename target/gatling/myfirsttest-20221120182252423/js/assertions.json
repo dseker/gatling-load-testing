@@ -1,0 +1,10 @@
+{
+  "simulation": "videogamedb.MyFirstTest",
+  "simulationId": "myfirsttest",
+  "start": 1668968572423,
+  "description": "test",
+  "scenarios": ["My first test"],
+  "assertions": [
+
+  ]
+}
