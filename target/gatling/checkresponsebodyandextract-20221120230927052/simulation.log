@@ -1,0 +1,6 @@
+RUN	videogamedb.CheckResponseBodyAndExtract	checkresponsebodyandextract	1668985767052	 	3.6.1
+USER	Check with JSON path	START	1668985767934
+REQUEST		Get specific game	1668985767952	1668985768164	OK	 
+REQUEST		Get all video games	1668985768217	1668985768291	OK	 
+REQUEST		Get specific game	1668985768307	1668985768382	OK	 
+USER	Check with JSON path	END	1668985768386

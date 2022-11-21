@@ -22,12 +22,12 @@ class CheckResponseCode extends Simulation {
 
     .exec(http("Get a specific game")
       .get("/videogame/1")
-    .check(status.is(200 to 2010)))
+    .check(status.is(200 - 210)))
     .pause(1, 10)
 
     .exec(http("Get all video games - 2nd call")
       .get("/videogame")
-    .check(status.not(400 to 404)))
+    .check(status.not(400 - 404)))
     .pause(3000.milliseconds)
 
   setUp(scn.inject(atOnceUsers(1)))

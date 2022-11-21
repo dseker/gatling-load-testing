@@ -1,0 +1,6 @@
+RUN	videogamedb.CheckResponseBodyAndExtract	checkresponsebodyandextract	1668985674729	 	3.6.1
+USER	Check with JSON path	START	1668985675914
+REQUEST		Get specific game	1668985675936	1668985676147	OK	 
+REQUEST		Get all video games	1668985676201	1668985676277	OK	 
+REQUEST		Get specific game	1668985676289	1668985676352	KO	jsonPath($.name).find.is(Gran Turismo 3), but actually found nothing
+USER	Check with JSON path	END	1668985676369
